@@ -1,0 +1,92 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Lakos, your bot assistant", "I'm Lakos, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Lakos.", "I'm Lakos!", "Just call me as Lakos"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "separator size ",
+    "patterns": ["What separator size do I need?", "do I need separator size ?", "size of separator needed", "size of seprator" ],
+    "responses": ["Flow rate is the most important factor in determining separator size", "All JK ENGINEERING Separators operate within a prescribed flow range","smaller than the existing piping"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "factory timer setting ",
+    "patterns": ["What is the factory timer setting of the Auto Purge Controller?", "What is the factory timer setting", " timer setting of the Auto Purge Controller"],
+    "responses": ["JK ENGINEERING factory-built purge controllers do not have factory-set timings.", "The required purge frequency and durations vary depending on flow rates, solids concentrations, type of solids"]
+    },
+    {"tag": "Purge",
+    "patterns": ["How long do I purge?", "Purge time"],
+    "responses": ["Purge often at first and calculate the proper rate based on the expected volume of separated solids.", "Purge duration should be long enough to evacuate the purge chamber AND clear the entire length of the purge piping of all solids.","This is usually indicated by a change in the color of the purged liquid from dark to light","The time between purges should never exceed the time it takes to fill 1/3 of the collection chamber volume"]
+    },
+    {"tag": "seprator durability",
+    "patterns": ["How long will the separator last?", "separator durability", "what is separator life"],
+    "responses": ["While there are many JK ENGINEERING Separators still in service after 15-25 years", "It can generally be expected to last as long as any other materials of similar construction in that system. ","Environment, fluid chemical make-up, flow, the material of construction, type of solids, and maintenance purging are all important factors to the life of a separator. "]
+    },
+    {"tag": "sand media filter",
+    "patterns": ["What size media do I need ?", "What size media do I need in a sand media filter?"],
+    "responses": ["Media filtration sand requirements are based on the filter’s downstream equipment needs.", "#20 Filter Sand 200 – 250 mesh (74-63 microns) #16 Filter Sand 150 – 200 mesh (105-74 microns) #12 Filter Sand 120 – 150 mesh (125-105 microns)"]
+    },
+    {"tag": "efficiency of the separator",
+    "patterns": ["What is the efficiency of the separator?", "efficiency of the separator", "can you tell me about seprator efficiency?"],
+    "responses": ["Solids-removal efficiency is affected by several factors, including the difference in specific gravity between the solids and the carrying liquid", "Appreciable quantities of particles finer than 74 microns are also removed, as well as particles of lighter specific gravity. ", "Higher specific gravities (like mill scale in water, where SG=5.7) result in much finer levels of filtration."]
+    },
+    {"tag": "backwash ",
+     "patterns": ["How often should I backwash a sand media filter?", "gap between backwash of sand media filter"],
+     "responses": ["It is recommended that backwashing should take place at an interval when it is anticipated the filter system will have a 7 psi pressure drop. ", "If the filter media does not achieve 7psi differential over 24 hours, it is recommended that the filter be backwashed once a day as a minimum."]
+    },
+    {"tag": "CRN ",
+     "patterns": ["Can you do CRN?", "is CRN possible?"],
+     "responses": ["Yes, we can manufacture a separator with a Canadian Registration Number (CRN). ", "Yes,We must know the Province or Territory the vessel is to be located so we can contact the registration controlling agency within that Province or Territory to determine the cost and lead time."]
+   },
+    {"tag": "Pump Protection Separator",
+     "patterns": ["Where does the sand go when operating a Pump Protection Separator ?", "Sand place in Pump Protection Separator?","where does sand go in PPS?"],
+     "responses": ["The sand goes to the bottom of the well. Over time, the flow dynamics of the well formation are changed due to the accumulation of the sand, and water is pumped without disruption through the life of the well."]
+   },
+    {"tag": "maximum pressure ",
+     "patterns": ["What is the maximum pressure?", "maximum pressure?","maximum pressure for Separators?"],
+     "responses": ["Standard maximum pressure rating for most JK ENGINEERING Separators is 150 psi. The exceptions are the SMP Separators, which have a maximum pressure rating of 100 psi. "]
+   },
+   {"tag": "maximum temperature ",
+    "patterns": ["What is the maximum temperature?", "maximum temperature?","maximum temperature for Separators?"],
+    "responses": ["Standard maximum temperature rating for operating most JK ENGINEERING Separators is 180°F. The exceptions are SMP Separators, which have a maximum temperature of 120°F. "]
+   },
+  {"tag": "separator work",
+   "patterns": ["Will the separator work on fluid other than water?", "will separator work on different fluid?","will separator work with different fluid and solid particles?"],
+   "responses": ["The JK ENGINEERING Separator is capable of working with any liquid that has a viscosity less than 100 SSU.","The greater the specific gravity of the separable solids and the lower the viscosity of the liquid, the better the JK ENGINEERING Separator will work.","A good rule of thumb: if the solids settle within 3-4 minutes in your liquid, they will likely be separable with a JK ENGINEERING Separator."]
+  },
+  {"tag": "solids load ",
+   "patterns": ["What is the greatest solids load the separator can handle?", "How much solid load separator can handle?","separator load capacity?"],
+   "responses": ["The maximum solids loading on JK ENGINEERING Separators is recommended to be less than 1% by volume.SMP Separators for residential use are not recommended to exceed 0.25% by volume. "]
+  },
+  {"tag": "material of construction ",
+   "patterns": ["What material of construction is available for a separator?", "separator material of construction ?","construction material of seperator?"],
+   "responses": ["As a standard, most separators are available in mild carbon steel and 304L/316L-series stainless steels. In special cases, separators can also be fabricated in plastic or fiberglass."]
+  },
+  {"tag": "basin sweeping",
+   "patterns": ["How do I determine what I need for basin sweeping in HVAC systems?", "what do i need in basin sweeping in HVAC systems ?","basin sweeping in HVAC systems"],
+   "responses": ["As a rule of thumb, JK ENGINEERING uses a sizing factor of 1 GPM per square foot of basin area to determine the required size of a Tower Clean (TC) system"]
+  }
+
+]
+}
